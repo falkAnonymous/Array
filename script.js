@@ -40,27 +40,46 @@
 
 // });
 
-nomes = ["Maria", "Mirian", "DAVID"]
-Nota = ["9.5", "7.5", "6.6"]
+// nomes = ["Maria", "Mirian", "DAVID"]
+// Nota = ["9.5", "7.5", "6.6"]
 
 
-for (i = 0; i <= nomes.length; i++) {
-    console.log(nomes[i]+"-"+Nota[i]);
-}
+// for (i = 0; i <= nomes.length; i++) {
+//     console.log(nomes[i]+"-"+Nota[i]);
+// }
 
-const alunos = [
-    { nome: 'João', nota: 8 },
-    { nome: 'Maria', nota: 5 },
-    { nome: 'Pedro', nota: 7.5 },
-    { nome: 'Ana', nota: 6 },
-    { nome: 'Carlos', nota: 9 },
-  ];
-  
-  alunos.forEach((aluno) => {
-    if (aluno.nota > 7) {
-      console.log(`${aluno.nome} - Aprovado`);
-    } else {
-      console.log(`${aluno.nome} - Reprovado`);
-    }
-  });
-  
+// const alunos = [
+//     { nome: 'João', nota: 8 },
+//     { nome: 'Maria', nota: 5 },
+//     { nome: 'Pedro', nota: 7.5 },
+//     { nome: 'Ana', nota: 6 },
+//     { nome: 'Carlos', nota: 9 },
+//   ];
+
+//   alunos.forEach((aluno) => {
+//     if (aluno.nota > 7) {
+//       console.log(`${aluno.nome} - Aprovado`);
+//     } else {
+//       console.log(`${aluno.nome} - Reprovado`);
+//     }
+//   });
+
+nomes = ["Maria", "João", "Carlos", "Lucas", "Pedro"]; //16
+
+resultado = nomes.indexOf("Lucas")
+
+console.log(resultado);
+
+Alunos = [
+{ nomes: 'Ramon', nota: 8.9 },
+{ nome: 'Lucas', nota: 10 },
+{ nome: 'Flavio', nota: 6.5 },
+{ nome: 'Giovana', nota: 5.5 },
+{ nome: 'Vitoria', nota: 7.5 },
+
+]
+Alunos.forEach(alunos => {
+  if(){
+
+  }
+});
