@@ -81,7 +81,7 @@ Alunos = [
 let nerd = nota.findIndex(notas => notas > 9)
 // console.log(nerd) //(EXERCICO 17)
 
-// console.log(alunos.includes("LUCAS"))//(18)
+// console.log(alunos.includes(("LUCAS"))//(18)
 
 let soma = nota.reduce((acumulador, item) => acumulador += item)//(19)
 let media = soma / nota.length
